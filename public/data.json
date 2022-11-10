@@ -1,0 +1,52 @@
+{
+    "tasks": [
+        {
+            "title": "Wake Up",
+            "type": "start",
+            "completed": true,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Change",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Breakfast",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Teeth",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Pack bag",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Toilet",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "Play!!!",
+            "type": "fun",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
+            "title": "School time",
+            "type": "school",
+            "completed": false,
+            "timeAllocated": 120
+        }
+    ]
+}
