@@ -1,0 +1,15 @@
+.container {
+    padding-left: 3em;
+}
+
+.times{
+    color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentTime {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+}

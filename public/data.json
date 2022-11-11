@@ -31,6 +31,12 @@
             "timeAllocated": 120
         },
         {
+            "title": "Sunblock and cream",
+            "type": "chore",
+            "completed": false,
+            "timeAllocated": 120
+        },
+        {
             "title": "Toilet",
             "type": "chore",
             "completed": false,

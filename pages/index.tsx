@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Tasks from "./tasks";
+import Times from "./times";
+import Tracker from "./tracker";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
           <a> Get Ready App</a>
         </h1>
       </main>
+      <Times />
+      <Tracker/>
       <Tasks />
     </div>
   );
