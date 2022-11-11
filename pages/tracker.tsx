@@ -3,9 +3,20 @@ import { useState, useEffect } from "react";
 
 export default function Tracker() {
   const [time, setTime] = useState(new Date());
-  const [startTime, setStartTime] = useState("07:30:00");
-  const [endTime, setEndTime] = useState();
-  const [progress, setProgress] = useState();
+  const [timeDiff, setTimeDiff] = useState(Number);
+
+  let currentDate = new Date().toJSON().slice(0, 10);
+  const wakeupTime = new Date(currentDate + " 16:38:00");
+
+  const getMinsDiff = (startDate, endDate) => {
+    const msInMins = 1000 * 60;
+
+    return Math.round(Math.abs(endDate - startDate) / msInMins);
+  };
+
+  useEffect(() => {
+    setTimeDiff(getMinsDiff(wakeupTime, time));
+  }, []);
 
   useEffect(() => {
     var timer = setInterval(() => setTime(new Date()), 1000);
@@ -14,5 +25,11 @@ export default function Tracker() {
     };
   });
 
-  return <div className={styles.container}></div>;
+  return (
+    <div className={styles.container}>
+      <p>Time since: {timeDiff}</p>
+    </div>
+  );
 }
+
+//create date object then add time
