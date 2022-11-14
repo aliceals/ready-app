@@ -1,7 +1,4 @@
-.container {
-    padding: 0 2rem;
-}
-  
+
   .main {
     /* min-height: 100vh; */
     padding: 4rem 0;
@@ -37,5 +34,5 @@
     justify-content: space-between;
     text-align: none;
     list-style: none;
-    padding: 2em;
+    padding: 2em 0;
   }

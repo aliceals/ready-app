@@ -47,12 +47,6 @@
             "type": "fun",
             "completed": false,
             "timeAllocated": 120
-        },
-        {
-            "title": "School time",
-            "type": "school",
-            "completed": false,
-            "timeAllocated": 120
         }
     ]
 }
