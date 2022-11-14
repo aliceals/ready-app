@@ -8,7 +8,7 @@ export default function Tracker() {
   const [percentageTime, setPercentageTime] = useState(Number);
   const [wakeupTime, setWakeupTime] = useState({});
 
-  const getMinsDiff = (startDate, endDate) => {
+  const getMinsDiff = (startDate: any, endDate: any) => {
     const msInMins = 1000 * 60;
 
     return Math.round((endDate - startDate) / msInMins);
@@ -34,10 +34,12 @@ export default function Tracker() {
 
   return (
     <div className={styles.container}>
-      <p>Time since: {timeDiff}</p>
+      {/* <p>Time since: {timeDiff}</p> */}
       <Line percent={percentageTime} strokeWidth={4} strokeColor="blue" />
     </div>
   );
 }
 
-//create date object then add time
+
+// 90 minutes
+// 3000

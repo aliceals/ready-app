@@ -4,49 +4,49 @@
             "title": "Wake Up",
             "type": "start",
             "completed": true,
-            "timeAllocated": 120
+            "timeAllocated": 600
         },
         {
             "title": "Change",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 900
         },
         {
             "title": "Breakfast",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 900
         },
         {
             "title": "Teeth",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 300
         },
         {
             "title": "Pack bag",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 300
         },
         {
             "title": "Sunblock and cream",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 600
         },
         {
             "title": "Toilet",
             "type": "chore",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 300
         },
         {
             "title": "Play!!!",
             "type": "fun",
             "completed": false,
-            "timeAllocated": 120
+            "timeAllocated": 1900
         }
     ]
 }
