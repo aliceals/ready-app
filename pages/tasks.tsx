@@ -9,9 +9,11 @@ export default function Tasks() {
     setTasks(data.tasks);
   }, []);
 
+  console.log("p", tasks);
+
   return (
     <div className={styles.container}>
-      <div className={styles.taskBox}>
+      <div className={styles.taskBox} style={{ width: "100%" }}>
         {data &&
           tasks.length > 0 &&
           tasks.map((p, i) => {
@@ -19,6 +21,7 @@ export default function Tasks() {
               <li
                 className={p.completed ? styles.completed : styles.uncompleted}
                 key={i}
+                style={{ width: `(p.timeAllocated / 5400 * 100)%` }}
               >
                 {p.title}
               </li>
