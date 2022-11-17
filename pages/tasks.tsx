@@ -21,7 +21,7 @@ export default function Tasks() {
               <li
                 className={p.completed ? styles.completed : styles.uncompleted}
                 key={i}
-                style={{ width: `(p.timeAllocated / 5400 * 100)%` }}
+                style={{ width: `${(p.timeAllocated / 5400) * 100}%` }}
               >
                 {p.title}
               </li>
